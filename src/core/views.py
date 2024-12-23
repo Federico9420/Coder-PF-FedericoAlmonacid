@@ -14,4 +14,4 @@ def saludar_con_parametros (request, nombre, apellido):
     return HttpResponse (f"{apellido}, {nombre}")
 
 def index(request):
-    return render(request, "core/index.hmtl")
+    return render(request, "core/index.html")
